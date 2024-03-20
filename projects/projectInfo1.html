@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiBrain | My Projects Website</title>
+    <link href="../style/projectInfo.css" rel="stylesheet" />
+    <link href="../style/general.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/834337f2eb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="logo">
+        <img id="logoImage" src="../images/logo.png" alt="logoPic">
+      </a>
+      <nav class="navbar">
+        <ul>
+          <li class="link"><a href="../index.html">HOME</a></li>
+          <li class="link"><a href="../projects.html">PROJECTS</a></li>
+          <li class="link"><a href="../contact.html">CONTACT</a></li>
+          <li class="link"><a href="../about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <button>
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+        <div class="content">
+          <li class="link"><a href="../index.html">HOME</a></li>
+          <li class="link"> <a href="../projects.html">PROJECTS</a></li>
+          <li class="link"><a href="../contact.html">CONTACT</a></li>
+          <li class="link"><a href="../about.html">ABOUT</a></li>
+        </div>
+      </div>
+    </header>
+
+
+    <main class="main">
+      <div class="title">
+        <div class="ProjectName">
+          <h1>AI Brain</h1>
+        </div>
+        <div class="pagging">
+          <button onclick="location.href='projectInfo2.html'">Next</button>
+        </div>
+      </div>
+        <div class="ProjectView">
+          <div class="ProjectVPhoto">
+            <img src="../images/projects/Ai_Brain.png" alt="Ai_Project_Photo">
+          </div>
+          <div class="ProjectVInfo">
+            <h1>Python Programming language</h1>
+          </div>
+        </div>
+        <div class="ProjectOthers">
+          <div class="ProjectComment">
+            <div class="addComment">
+
+              <h2>Comments</h2>
+                <input class="fullName" type="text" name="full_name" placeholder="Full Name..." required><br>
+                <textarea class="comment"  name="comment" placeholder="Type your comment..." rows="5" cols="50" maxlength="500"></textarea><br>
+                <button class="submit"  type="submit"><a href="#">Submit Comment</a></button>
+              
+              
+            </div>
+            <div class="allComments">
+              <h2>All Comments</h2>
+              <h5>0 comment</h5>
+            </div>
+          </div>
+          <div class="ProjectRec">
+            <h1 id="reccomended">Recommended project</h1>
+            <div class="reccomendedpart">
+              <h3>Music player</h3>
+                <h4>Python Programming language</h4>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+      <p>&copy;2024 | All Rights Reserved</p>
+    </footer>
+
+    
+  </body>
+</html>

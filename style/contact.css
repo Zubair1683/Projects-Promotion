@@ -1,0 +1,102 @@
+/* Main section styles */
+main{
+    position: relative;
+    top: 150px;
+    margin-bottom: 200px;
+}
+
+/* Style for aboutpart */
+.aboutpart{
+    background-color: rgb(248, 244, 238);
+    border-radius: 15px;
+    margin-left: 15%;
+    width: 45%;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+}
+
+.aboutpart ol{
+    margin-bottom: 20px;
+}
+
+.aboutpart li{
+    list-style-type: none;
+}
+
+/* Styles for nested list items */
+.innerlist{
+    padding-left: 2.5%;
+}
+
+/* It is margin for the name */
+.title{
+    margin-bottom: 10px;
+}
+
+/* Styling for the social bar */
+.socialbar{
+    margin-left: 15%;
+}
+
+/* Resizing the map */
+#map{
+    width: 100%;
+    aspect-ratio : 3 / 2;
+}
+
+/* Stylesfor social media icons */
+.socialmedia{
+    color: #8029a4;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* Color changment on icons for hover and active */
+.fa.fa-facebook-f:hover {
+    color: #316ff6;
+}
+
+.fa.fa-facebook-f:active{
+    color: #316ff6;
+}
+
+.fa.fa-twitter:hover {
+    color: #1d9bf0;
+}
+
+.fa.fa-twitter:active{
+    color: #1d9bf0;
+}
+
+.fa.fa-instagram:hover {
+    color: rgb(171, 173, 45);
+}
+
+.fa.fa-instagram:active{
+    color: rgb(171, 173, 45);
+}
+
+.fa.fa-youtube:hover {
+    color: #ff0000;
+}
+
+.fa.fa-youtube:active{
+    color: #ff0000;
+}
+
+/* Media queries for screen size adjustments */
+@media screen and (max-width:1200px){    
+    main{
+        display: block;
+    }
+    .aboutpart{
+        width: 55%;
+    }
+}
+
+/* Media query for screens up to 750px wide */
+@media screen and (max-width:750px){
+    .aboutpart{
+        width: 70%;
+    }   
+}
